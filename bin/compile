@@ -282,6 +282,14 @@ source "$BIN_DIR/steps/sqlite3"
 buildpack_sqlite3_install
 mtime "sqlite3.install.time" "${start}"
 
+
+
+$BUILD_DIR/.heroku/python/bin/python -m pip install cython
+
+
+
+
+
 # pip install
 # -----------
 
